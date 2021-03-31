@@ -154,5 +154,11 @@ namespace Personel_Kayit
             baglanti.Close();
             MessageBox.Show("Personel güncellendi");
         }
+
+        private void btnStats_Click(object sender, EventArgs e)
+        {
+            Frmistatistik istatistik = new Frmistatistik();
+            istatistik.Show();
+        }
     }
 }

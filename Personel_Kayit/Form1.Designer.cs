@@ -137,6 +137,7 @@ namespace Personel_Kayit
             this.btnStats.TabIndex = 1;
             this.btnStats.Text = "İstatistik";
             this.btnStats.UseVisualStyleBackColor = true;
+            this.btnStats.Click += new System.EventHandler(this.btnStats_Click);
             // 
             // btnGrafik
             // 
@@ -395,7 +396,7 @@ namespace Personel_Kayit
             this.groupBox2.Controls.Add(this.btnStats);
             this.groupBox2.Controls.Add(this.btnTemizle);
             this.groupBox2.Controls.Add(this.btnKaydet);
-            this.groupBox2.Location = new System.Drawing.Point(470, 13);
+            this.groupBox2.Location = new System.Drawing.Point(476, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(287, 312);
             this.groupBox2.TabIndex = 3;
@@ -514,7 +515,7 @@ namespace Personel_Kayit
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(299, 109);
+            this.pictureBox1.Location = new System.Drawing.Point(302, 109);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(165, 158);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -526,7 +527,7 @@ namespace Personel_Kayit
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(769, 554);
+            this.ClientSize = new System.Drawing.Size(777, 554);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
